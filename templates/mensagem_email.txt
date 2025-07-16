@@ -1,0 +1,25 @@
+Assunto: Candidatura para a vaga de {vaga} - {empresa}
+
+Prezados(as) Senhores(as),
+
+Espero que este email os encontre bem.
+
+Meu nome é [SEU NOME], e tenho {anos_experiencia} anos de experiência em desenvolvimento de software. Venho por meio desta demonstrar meu interesse na vaga de {vaga} em sua empresa.
+
+Principais qualificações:
+• Experiência sólida em {tecnologias_principais}
+• Conhecimento em metodologias ágeis (Scrum/Kanban)
+• Capacidade de trabalhar em equipe e entregar resultados
+• Sempre em busca de aprendizado e inovação
+
+Tenho grande admiração pelo trabalho desenvolvido pela {empresa} e acredito que posso contribuir significativamente para o crescimento da equipe e dos projetos.
+
+Em anexo, segue meu currículo com mais detalhes sobre minha experiência profissional e formação acadêmica.
+
+Fico à disposição para uma conversa e possível entrevista.
+
+Atenciosamente,
+[SEU NOME]
+[SEU TELEFONE]
+[SEU EMAIL]
+[SEU LINKEDIN]

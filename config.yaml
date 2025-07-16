@@ -1,0 +1,26 @@
+# Configurações do Email
+email:
+  usuario: "seu_email@gmail.com"
+  senha_app: "sua_senha_de_app_aqui"  # Use uma senha de app do Gmail
+  servidor_smtp: "smtp.gmail.com"
+  porta: 587
+
+# Configurações de Envio
+envio:
+  delay_entre_emails: 30  # segundos entre cada envio
+  max_envios_por_dia: 10
+  horario_funcionamento:
+    inicio: "09:00"
+    fim: "17:00"
+
+# Configurações de Follow-up
+followup:
+  dias_para_seguimento: 7
+  max_followups: 2
+
+# Configurações de Arquivos
+arquivos:
+  curriculo: "currículo.pdf"
+  empresas: "empresas.xlsx"
+  log_respostas: "log_respostas.xlsx"
+  template_email: "templates/mensagem_email.txt"

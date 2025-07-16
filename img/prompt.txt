@@ -1,0 +1,29 @@
+Crie uma imagem profissional em formato 1920x1080 pixels para um artigo do LinkedIn sobre automação de busca por emprego. A imagem deve ter:
+
+ELEMENTOS VISUAIS:
+- Fundo gradient moderno em tons de azul corporativo (#0077B5 do LinkedIn) para azul escuro
+- Título principal: "AUTOMAÇÃO INTELIGENTE PARA BUSCA DE EMPREGO"
+- Subtítulo: "Como Python pode revolucionar sua carreira"
+- Logo/texto da empresa: "Cara Core Informática - Automação" (canto inferior direito)
+
+ELEMENTOS TÉCNICOS:
+- Ícones minimalistas representando: Python (logo), email, dashboard, gráficos
+- Ilustração de um fluxo automatizado com setas conectando: Currículo → Email → Dashboard → Resultados
+- Elementos visuais de código Python (trechos sutis no fundo)
+- Gráficos de barras ou pizza mostrando eficiência/resultados
+
+ESTILO:
+- Design limpo e profissional
+- Tipografia moderna e legível (sans-serif)
+- Cores: azul, branco, cinza escuro
+- Evitar elementos infantis ou muito coloridos
+- Estilo corporativo adequado para LinkedIn
+
+LAYOUT:
+- Título na parte superior central
+- Elementos visuais distribuídos harmoniosamente
+- Espaço em branco adequado para respiração visual
+- Logo da empresa discreto mas visível
+
+OBJETIVO:
+Transmitir profissionalismo, inovação tecnológica e eficiência para profissionais que buscam otimizar sua busca por emprego através da automação.
