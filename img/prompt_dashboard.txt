@@ -1,0 +1,57 @@
+Crie uma imagem realista de um dashboard web em formato PNG (800x400 pixels) com as seguintes especificações:
+
+LAYOUT GERAL:
+- Interface web moderna estilo Streamlit
+- Fundo branco limpo
+- Header com título "Sending_CV Dashboard" 
+- Subtítulo "Sistema de Automação de Envio de Currículos"
+
+SEÇÃO DE MÉTRICAS (CARDS SUPERIORES):
+4 cards horizontais com ícones e números:
+1. "📧 Total de Envios: 47"
+2. "✅ Respostas Recebidas: 12" 
+3. "📊 Taxa de Resposta: 25.5%"
+4. "⏰ Follow-ups Pendentes: 8"
+
+SEÇÃO DE GRÁFICOS (MEIO):
+Dois gráficos lado a lado:
+- ESQUERDA: Gráfico de pizza mostrando status:
+  * "Enviado" (azul) - 60%
+  * "Sem Retorno" (laranja) - 25%
+  * "Entrevista" (verde) - 10%
+  * "Respondido" (roxo) - 5%
+  
+- DIREITA: Gráfico de linha temporal:
+  * Eixo X: Últimos 7 dias
+  * Eixo Y: Número de envios (0-10)
+  * Linha ascendente mostrando progresso
+
+SEÇÃO DE TABELAS (INFERIOR):
+Duas tabelas lado a lado:
+- ESQUERDA: "Log de Respostas"
+  Colunas: Empresa | Vaga | Status | Data
+  Dados exemplo:
+  * TechCorp | Dev Python | Entrevista | 15/07
+  * StartupX | Fullstack | Respondido | 14/07
+  * InnovaCorp | Backend | Sem Retorno | 13/07
+
+- DIREITA: "Empresas Pendentes"  
+  Colunas: Empresa | Vaga | Email
+  Dados exemplo:
+  * CodeFactory | Dev React | rh@code.com
+  * DevStudio | Python Dev | jobs@dev.com
+  * TechStart | Fullstack | hr@tech.com
+
+ESTILO VISUAL:
+- Cores: Azul (#0077B5), verde (#28a745), laranja (#fd7e14), roxo (#6f42c1)
+- Fonte: Sans-serif moderna
+- Espaçamento limpo entre seções
+- Sombras sutis nos cards
+- Grid responsivo
+- Aparência profissional de dashboard real
+
+DETALHES TÉCNICOS:
+- Resolução: 800x400 pixels
+- Formato: PNG com fundo transparente ou branco
+- Estilo: Interface web realista tipo admin panel
+- Inspiração: Dashboards do Streamlit, Grafana, ou admin templates modernos

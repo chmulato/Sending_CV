@@ -143,7 +143,7 @@ O dashboard web oferece:
 - **Controles** para ações rápidas
 - **Filtros** por status e período
 
-![Dashboard Preview](https://via.placeholder.com/800x400?text=Dashboard+Preview)
+![Dashboard do Sending_CV](img/dashboard_preview.png)
 
 ## Segurança e Boas Práticas
 
