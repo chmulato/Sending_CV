@@ -145,11 +145,11 @@ A tecnologia deve trabalhar para nós, não o contrário.
 
 Contribuições são bem-vindas!
 
-![Preview](img/sending_cv.png)
+![Dashboard do Sending_CV](img/dashboard_preview.png)
 
 ---
 
-**Cara Core Informática - Automação**
+- **Cara Core Informática - Automação**
 
 Quer implementar uma solução similar na sua empresa?
 Precisa automatizar algum processo repetitivo?
