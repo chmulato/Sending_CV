@@ -24,22 +24,23 @@ def test_load_data():
         # Testar empresas.xlsx
         if os.path.exists('empresas.xlsx'):
             df_empresas = pd.read_excel('empresas.xlsx')
-            print(f"✅ empresas.xlsx carregado: {len(df_empresas)} empresas")
+            print(f"empresas.xlsx carregado: {len(df_empresas)} empresas")
             print(f"Colunas: {list(df_empresas.columns)}")
             print(f"Primeiras 3 empresas: {df_empresas['Empresa'].head(3).tolist()}")
         else:
-            print("❌ empresas.xlsx não encontrado")
+            print("empresas.xlsx não encontrado")
             
         # Testar log_respostas.xlsx
-        if os.path.exists('log_respostas.xlsx'):
-            df_log = pd.read_excel('log_respostas.xlsx')
-            print(f"✅ log_respostas.xlsx carregado: {len(df_log)} registros")
+        log_path = os.path.join('log', 'log_respostas.xlsx')
+        if os.path.exists(log_path):
+            df_log = pd.read_excel(log_path)
+            print(f"log_respostas.xlsx carregado: {len(df_log)} registros")
             print(f"Status únicos: {df_log['Status'].unique().tolist()}")
         else:
-            print("❌ log_respostas.xlsx não encontrado")
+            print("log_respostas.xlsx não encontrado")
             
     except Exception as e:
-        print(f"❌ Erro no carregamento: {e}")
+        print(f"Erro no carregamento: {e}")
 
 def test_config():
     """Testa o carregamento da configuração."""
@@ -49,13 +50,13 @@ def test_config():
         with open('config.yaml', 'r', encoding='utf-8') as file:
             config = yaml.safe_load(file)
         
-        print("✅ config.yaml carregado com sucesso")
+        print("config.yaml carregado com sucesso")
         print(f"Delay entre emails: {config['envio']['delay_entre_emails']}s")
         print(f"Max envios/dia: {config['envio']['max_envios_por_dia']}")
         print(f"Horário: {config['envio']['horario_funcionamento']['inicio']} - {config['envio']['horario_funcionamento']['fim']}")
         
     except Exception as e:
-        print(f"❌ Erro na configuração: {e}")
+        print(f"Erro na configuração: {e}")
 
 def test_template():
     """Testa o template de email."""
@@ -66,7 +67,7 @@ def test_template():
         if os.path.exists(template_path):
             with open(template_path, 'r', encoding='utf-8') as file:
                 template = file.read()
-            print("✅ Template carregado com sucesso")
+            print("Template carregado com sucesso")
             print(f"Tamanho do template: {len(template)} caracteres")
             
             # Testar substituição de variáveis
@@ -80,12 +81,12 @@ def test_template():
             for key, value in test_data.items():
                 template_personalizado = template_personalizado.replace(f'{{{key}}}', value)
             
-            print("✅ Personalização de template funcionando")
+            print("Personalização de template funcionando")
         else:
-            print("❌ Template não encontrado")
+            print("Template não encontrado")
             
     except Exception as e:
-        print(f"❌ Erro no template: {e}")
+        print(f"Erro no template: {e}")
 
 def test_file_structure():
     """Testa a estrutura de arquivos."""
@@ -97,16 +98,16 @@ def test_file_structure():
         'config.yaml',
         'requirements.txt',
         'empresas.xlsx',
-        'log_respostas.xlsx',
+        os.path.join('log', 'log_respostas.xlsx'),
         os.path.join('templates', 'mensagem_email.txt'),
         os.path.join('test', 'test_sending_cv.py')
     ]
     
     for file_path in required_files:
         if os.path.exists(file_path):
-            print(f"✅ {file_path}")
+            print(f"OK: {file_path}")
         else:
-            print(f"❌ {file_path} - AUSENTE")
+            print(f"AUSENTE: {file_path}")
 
 def test_dependencies():
     """Testa se as dependências estão instaladas."""
@@ -125,9 +126,9 @@ def test_dependencies():
     for dep in dependencies:
         try:
             __import__(dep)
-            print(f"✅ {dep}")
+            print(f"OK: {dep}")
         except ImportError:
-            print(f"❌ {dep} - NÃO INSTALADO")
+            print(f"NÃO INSTALADO: {dep}")
 
 def simulate_email_sending():
     """Simula o processo de envio de emails."""
@@ -135,32 +136,32 @@ def simulate_email_sending():
     
     try:
         df_empresas = pd.read_excel('empresas.xlsx')
-        df_log = pd.read_excel('log_respostas.xlsx')
+        df_log = pd.read_excel(os.path.join('log', 'log_respostas.xlsx'))
         
         # Encontrar empresas ainda não contatadas
         emails_enviados = df_log['Email'].tolist()
         empresas_pendentes = df_empresas[~df_empresas['Email'].isin(emails_enviados)]
         
-        print(f"📊 Total de empresas: {len(df_empresas)}")
-        print(f"📧 Emails já enviados: {len(emails_enviados)}")
-        print(f"⏳ Empresas pendentes: {len(empresas_pendentes)}")
+        print(f"Total de empresas: {len(df_empresas)}")
+        print(f"Emails já enviados: {len(emails_enviados)}")
+        print(f"Empresas pendentes: {len(empresas_pendentes)}")
         
         if len(empresas_pendentes) > 0:
-            print(f"📤 Próximas empresas para contato:")
+            print(f"Próximas empresas para contato:")
             for i, row in empresas_pendentes.head(3).iterrows():
                 print(f"  - {row['Empresa']} ({row['Vaga']})")
         else:
-            print("✅ Todas as empresas já foram contatadas!")
+            print("Todas as empresas já foram contatadas!")
             
     except Exception as e:
-        print(f"❌ Erro na simulação: {e}")
+        print(f"Erro na simulação: {e}")
 
 def test_dashboard_data():
     """Testa os dados do dashboard."""
     print("\n=== Teste 7: Dados do Dashboard ===")
     
     try:
-        df_log = pd.read_excel('log_respostas.xlsx')
+        df_log = pd.read_excel(os.path.join('log', 'log_respostas.xlsx'))
         
         # Métricas
         total_envios = len(df_log)
@@ -168,23 +169,23 @@ def test_dashboard_data():
         taxa_resposta = (total_respostas / total_envios * 100) if total_envios > 0 else 0
         followups_pendentes = len(df_log[df_log['Status'] == 'Sem Retorno'])
         
-        print(f"📧 Total de envios: {total_envios}")
-        print(f"✅ Respostas recebidas: {total_respostas}")
-        print(f"📊 Taxa de resposta: {taxa_resposta:.1f}%")
-        print(f"⏰ Follow-ups pendentes: {followups_pendentes}")
+        print(f"Total de envios: {total_envios}")
+        print(f"Respostas recebidas: {total_respostas}")
+        print(f"Taxa de resposta: {taxa_resposta:.1f}%")
+        print(f"Follow-ups pendentes: {followups_pendentes}")
         
         # Status distribution
-        print(f"📈 Distribuição por status:")
+        print(f"Distribuição por status:")
         status_counts = df_log['Status'].value_counts()
         for status, count in status_counts.items():
             print(f"  - {status}: {count}")
             
     except Exception as e:
-        print(f"❌ Erro nos dados do dashboard: {e}")
+        print(f"Erro nos dados do dashboard: {e}")
 
 def main():
     """Executa todos os testes."""
-    print("🧪 INICIANDO TESTES DO SENDING_CV")
+    print("INICIANDO TESTES DO SENDING_CV")
     print("=" * 50)
     
     # Mudar para o diretório pai para acessar os arquivos
@@ -192,9 +193,9 @@ def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     parent_dir = os.path.dirname(script_dir)
     
-    print(f"📂 Diretório atual: {original_dir}")
-    print(f"📂 Diretório do script: {script_dir}")
-    print(f"📂 Diretório pai: {parent_dir}")
+    print(f"Diretório atual: {original_dir}")
+    print(f"Diretório do script: {script_dir}")
+    print(f"Diretório pai: {parent_dir}")
     
     os.chdir(parent_dir)
     
@@ -208,13 +209,13 @@ def main():
         test_dashboard_data()
         
         print("\n" + "=" * 50)
-        print("🏁 TESTES CONCLUÍDOS")
-        print("\n💡 Para testar o dashboard, execute:")
+        print("TESTES CONCLUÍDOS")
+        print("\nPara testar o dashboard, execute:")
         print("   streamlit run dashboard.py")
-        print("\n📧 Para configurar emails reais:")
+        print("\nPara configurar emails reais:")
         print("   1. Edite config.yaml com suas credenciais Gmail")
         print("   2. Execute: python main.py")
-        print("\n🧪 Para executar os testes novamente:")
+        print("\nPara executar os testes novamente:")
         print("   python test/test_sending_cv.py")
         
     finally:

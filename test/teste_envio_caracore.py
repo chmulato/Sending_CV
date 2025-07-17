@@ -41,7 +41,7 @@ def teste_envio_caracore():
         
         # Verifica se está no horário de funcionamento
         if not cv_sender.verificar_horario_funcionamento():
-            print("⚠️  AVISO: Fora do horário de funcionamento configurado")
+            print("AVISO: Fora do horário de funcionamento configurado")
             resposta = input("Deseja continuar mesmo assim? (s/n): ")
             if resposta.lower() != 's':
                 print("Teste cancelado pelo usuário.")
@@ -50,20 +50,20 @@ def teste_envio_caracore():
         # Conecta ao email
         print("Conectando ao Gmail...")
         if not cv_sender.connect_email():
-            print("❌ Erro: Não foi possível conectar ao email.")
+            print("ERRO: Não foi possível conectar ao email.")
             print("Verifique as configurações no arquivo config.yaml")
             return
         
-        print("✅ Conexão com Gmail estabelecida!")
+        print("Conexão com Gmail estabelecida!")
         
         # Carrega template
         print("Carregando template de email...")
         template = cv_sender.load_template_email()
         if not template:
-            print("❌ Erro: Não foi possível carregar o template de email.")
+            print("ERRO: Não foi possível carregar o template de email.")
             return
         
-        print("✅ Template carregado!")
+        print("Template carregado!")
         
         # Personaliza email
         print("Personalizando email...")
@@ -90,10 +90,10 @@ def teste_envio_caracore():
         # Verifica se o currículo existe
         curriculo_path = cv_sender.config['arquivos']['curriculo']
         if not os.path.exists(curriculo_path):
-            print(f"❌ Erro: Arquivo de currículo '{curriculo_path}' não encontrado!")
+            print(f"ERRO: Arquivo de currículo '{curriculo_path}' não encontrado!")
             return
         
-        print(f"✅ Currículo encontrado: {curriculo_path}")
+        print(f"Currículo encontrado: {curriculo_path}")
         
         # Envia email
         print("Enviando email...")
@@ -104,7 +104,7 @@ def teste_envio_caracore():
         )
         
         if sucesso:
-            print("✅ Email enviado com sucesso!")
+            print("Email enviado com sucesso!")
             
             # Registra no log
             print("Registrando no log...")
@@ -124,16 +124,16 @@ def teste_envio_caracore():
             df_log = pd.concat([df_log, pd.DataFrame([novo_registro])], ignore_index=True)
             cv_sender.save_log_respostas(df_log)
             
-            print("✅ Registro salvo no log!")
+            print("Registro salvo no log!")
             print()
             print("=== TESTE CONCLUÍDO COM SUCESSO! ===")
             
         else:
-            print("❌ Falha no envio do email!")
+            print("Falha no envio do email!")
             print("Verifique os logs para mais detalhes.")
             
     except Exception as e:
-        print(f"❌ Erro durante o teste: {e}")
+        print(f"Erro durante o teste: {e}")
         import traceback
         traceback.print_exc()
 
