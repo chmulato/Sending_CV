@@ -6,20 +6,20 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow.svg)
 
-Um sistema completo para **automatizar o envio de currículos** e **acompanhar respostas** de processos seletivos, desenvolvido em Python com interface web usando Streamlit.
+Um sistema completo para automatizar o envio de currículos e acompanhar respostas de processos seletivos, desenvolvido em Python com interface web usando Streamlit.
 
 ## Funcionalidades
 
 ### Implementadas
 
-- **Envio automatizado de emails** com currículo anexado
-- **Personalização automática** de mensagens por empresa/vaga
-- **Controle de horários** de funcionamento (9h às 17h)
-- **Limite diário** de envios para evitar spam
-- **Sistema de logging** completo
-- **Dashboard web** para monitoramento
-- **Controle de follow-up** automático
-- **Histórico completo** de interações
+- Envio automatizado de emails com currículo anexado
+- Personalização automática de mensagens por empresa/vaga
+- Controle de horários de funcionamento (9h às 17h)
+- Limite diário de envios para evitar spam
+- Sistema de logging completo
+- Dashboard web para monitoramento
+- Controle de follow-up automático
+- Histórico completo de interações
 
 ### Em Desenvolvimento
 
@@ -31,19 +31,19 @@ Um sistema completo para **automatizar o envio de currículos** e **acompanhar r
 
 ## Tecnologias Utilizadas
 
-- **Python 3.8+** - Linguagem principal
-- **Pandas** - Manipulação de dados Excel
-- **YagMail** - Envio de emails via Gmail
-- **Schedule** - Agendamento de tarefas
-- **Streamlit** - Interface web
-- **Plotly** - Gráficos interativos
-- **PyYAML** - Configurações
+- Python 3.8+ - Linguagem principal
+- Pandas - Manipulação de dados Excel
+- YagMail - Envio de emails via Gmail
+- Schedule - Agendamento de tarefas
+- Streamlit - Interface web
+- Plotly - Gráficos interativos
+- PyYAML - Configurações
 
 ## Pré-requisitos
 
-1. **Python 3.8 ou superior**
-2. **Conta Gmail** com senha de app configurada
-3. **Arquivo de currículo** em PDF
+1. Python 3.8 ou superior
+2. Conta Gmail com senha de app configurada
+3. Arquivo de currículo em PDF
 
 ## Instalação e Configuração
 
@@ -124,12 +124,16 @@ Sending_CV/
 ├── .env.example            # Exemplo de variáveis de ambiente
 ├── currículo.pdf           # Seu currículo (você deve adicionar)
 ├── empresas.xlsx           # Lista de empresas a contatar
-├── log_respostas.xlsx      # Histórico de envios e respostas
+├── log/
+│   ├── log_respostas.xlsx  # Histórico de envios e respostas
+│   └── sending_cv.log      # Log principal do sistema
 ├── templates/
 │   └── mensagem_email.txt  # Template do email
 ├── test/
-│   ├── __init__.py         # Módulo de testes
-│   └── test_sending_cv.py  # Script de testes
+│   ├── test_sending_cv.py  # Script de testes
+│   └── teste_envio_caracore.py # Teste específico
+├── manual/
+│   └── INSTRUCOES_GMAIL.md # Instruções para configurar Gmail
 └── README.md               # Este arquivo
 ```
 
@@ -137,11 +141,11 @@ Sending_CV/
 
 O dashboard web oferece:
 
-- **Métricas em tempo real** (envios, respostas, taxa de conversão)
-- **Gráficos interativos** de acompanhamento
-- **Tabelas** com histórico completo
-- **Controles** para ações rápidas
-- **Filtros** por status e período
+- Métricas em tempo real (envios, respostas, taxa de conversão)
+- Gráficos interativos de acompanhamento
+- Tabelas com histórico completo
+- Controles para ações rápidas
+- Filtros por status e período
 
 ![Dashboard do Sending_CV](img/dashboard_preview.png)
 
@@ -169,9 +173,13 @@ Meu nome é {seu_nome}, e tenho {anos_experiencia} anos de experiência...
 
 No arquivo `empresas.xlsx`:
 
-| Empresa | Vaga | Email |
-|---------|------|-------|
+```markdown
+|----------|----------------------|-------------------|
+| Empresa  |  Vaga                | Email             |
+|----------|----------------------|-------------------|
 | TechCorp | Desenvolvedor Python | `rh@techcorp.com` |
+|----------|----------------------|-------------------|
+```
 
 ## Testes
 
@@ -211,10 +219,10 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## Contato
 
-- **LinkedIn**: [Cara-Core Informática](https://www.linkedin.com/company/cara-core/)
-- **Email**: [suporte@caracore.com.br](mailto:suporte@caracore.com.br)
-- **GitHub**: [@chmulato](https://github.com/chmulato)
+- LinkedIn: [Cara-Core Informática](https://www.linkedin.com/company/cara-core/)
+- Email: [suporte@caracore.com.br](mailto:suporte@caracore.com.br)
+- GitHub: [@chmulato](https://github.com/chmulato)
 
 ---
 
-**Se este projeto foi útil, deixe uma estrela!**
+Se este projeto foi útil, deixe uma estrela!

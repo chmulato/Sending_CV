@@ -1,7 +1,7 @@
 # Configurações do Email
 email:
-  usuario: "seu_email@gmail.com"
-  senha_app: "sua_senha_de_app_aqui"  # Use uma senha de app do Gmail
+  usuario: "chmulato@gmail.com"
+  senha_app: "senha_gmail_app"  # Use uma senha de app do Gmail
   servidor_smtp: "smtp.gmail.com"
   porta: 587
 
@@ -22,5 +22,5 @@ followup:
 arquivos:
   curriculo: "currículo.pdf"
   empresas: "empresas.xlsx"
-  log_respostas: "log_respostas.xlsx"
+  log_respostas: "log/log_respostas.xlsx"
   template_email: "templates/mensagem_email.txt"

@@ -49,11 +49,15 @@ class SendingCV:
     
     def setup_logging(self):
         """Configura o sistema de logging."""
+        # Cria a pasta log se não existir
+        log_dir = 'log'
+        os.makedirs(log_dir, exist_ok=True)
+        
         logging.basicConfig(
             level=logging.INFO,
             format='%(asctime)s - %(levelname)s - %(message)s',
             handlers=[
-                logging.FileHandler('sending_cv.log', encoding='utf-8'),
+                logging.FileHandler(os.path.join(log_dir, 'sending_cv.log'), encoding='utf-8'),
                 logging.StreamHandler()
             ]
         )
@@ -72,7 +76,9 @@ class SendingCV:
                 user=email_config['usuario'],
                 password=email_config['senha_app'],
                 host=email_config['servidor_smtp'],
-                port=email_config['porta']
+                port=email_config['porta'],
+                smtp_starttls=True,
+                smtp_ssl=False
             )
             self.logger.info("Conexão com email estabelecida com sucesso!")
             return True
