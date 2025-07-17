@@ -17,7 +17,7 @@ import os
 # Configuração da página
 st.set_page_config(
     page_title="Sending_CV Dashboard",
-    page_icon="📤",
+    page_icon="�",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -26,8 +26,9 @@ st.set_page_config(
 def load_data():
     """Carrega os dados dos arquivos Excel."""
     try:
-        if os.path.exists('log_respostas.xlsx'):
-            df_log = pd.read_excel('log_respostas.xlsx')
+        log_path = os.path.join('log', 'log_respostas.xlsx')
+        if os.path.exists(log_path):
+            df_log = pd.read_excel(log_path)
         else:
             df_log = pd.DataFrame()
             
@@ -45,7 +46,7 @@ def main():
     """Função principal do dashboard."""
     
     # Header
-    st.title("📤 Sending_CV Dashboard")
+    st.title("Sending_CV Dashboard")
     st.markdown("**Sistema de Automação de Envio de Currículos**")
     st.divider()
     
@@ -53,7 +54,7 @@ def main():
     df_log, df_empresas = load_data()
     
     # Sidebar
-    st.sidebar.header("📊 Controles")
+    st.sidebar.header("Controles")
     
     # Filtros
     if not df_log.empty:
@@ -82,16 +83,16 @@ def main():
     empresas_restantes = total_empresas - total_envios
     
     with col1:
-        st.metric("📧 Total de Envios", total_envios)
+        st.metric("Total de Envios", total_envios)
     
     with col2:
-        st.metric("✅ Respostas Recebidas", total_respostas)
+        st.metric("Respostas Recebidas", total_respostas)
     
     with col3:
-        st.metric("📊 Taxa de Resposta", f"{taxa_resposta:.1f}%")
+        st.metric("Taxa de Resposta", f"{taxa_resposta:.1f}%")
     
     with col4:
-        st.metric("⏰ Follow-ups Pendentes", followups_pendentes)
+        st.metric("Follow-ups Pendentes", followups_pendentes)
     
     st.divider()
     
@@ -100,7 +101,7 @@ def main():
         col1, col2 = st.columns(2)
         
         with col1:
-            st.subheader("📈 Status dos Envios")
+            st.subheader("Status dos Envios")
             
             # Gráfico de pizza para status
             status_counts = df_log['Status'].value_counts()
@@ -112,7 +113,7 @@ def main():
             st.plotly_chart(fig_pie, use_container_width=True)
         
         with col2:
-            st.subheader("📅 Envios por Data")
+            st.subheader("Envios por Data")
             
             # Converter Data_Envio para datetime se necessário
             if 'Data_Envio' in df_log.columns:
@@ -131,7 +132,7 @@ def main():
     col1, col2 = st.columns(2)
     
     with col1:
-        st.subheader("📋 Log de Respostas")
+        st.subheader("Log de Respostas")
         if not df_filtered.empty:
             st.dataframe(
                 df_filtered[['Empresa', 'Vaga', 'Status', 'Data_Envio', 'Observações']],
@@ -141,7 +142,7 @@ def main():
             st.info("Nenhum dado de log disponível")
     
     with col2:
-        st.subheader("🏢 Empresas Pendentes")
+        st.subheader("Empresas Pendentes")
         if not df_empresas.empty and not df_log.empty:
             empresas_contatadas = df_log['Email'].tolist()
             empresas_pendentes = df_empresas[~df_empresas['Email'].isin(empresas_contatadas)]
@@ -149,7 +150,7 @@ def main():
             if not empresas_pendentes.empty:
                 st.dataframe(empresas_pendentes, use_container_width=True)
             else:
-                st.success("✅ Todas as empresas já foram contatadas!")
+                st.success("Todas as empresas já foram contatadas!")
         elif not df_empresas.empty:
             st.dataframe(df_empresas, use_container_width=True)
         else:
@@ -157,25 +158,25 @@ def main():
     
     # Ações rápidas
     st.divider()
-    st.subheader("⚡ Ações Rápidas")
+    st.subheader("Ações Rápidas")
     
     col1, col2, col3, col4 = st.columns(4)
     
     with col1:
-        if st.button("🔄 Atualizar Dados", type="primary"):
+        if st.button("Atualizar Dados", type="primary"):
             st.cache_data.clear()
             st.rerun()
     
     with col2:
-        if st.button("📧 Processar Envios"):
+        if st.button("Processar Envios"):
             st.info("Funcionalidade em desenvolvimento...")
     
     with col3:
-        if st.button("📞 Verificar Follow-ups"):
+        if st.button("Verificar Follow-ups"):
             st.info("Funcionalidade em desenvolvimento...")
     
     with col4:
-        if st.button("📊 Gerar Relatório"):
+        if st.button("Gerar Relatório"):
             st.info("Funcionalidade em desenvolvimento...")
     
     # Footer
@@ -183,7 +184,7 @@ def main():
     st.markdown(
         """
         <div style='text-align: center; color: #666;'>
-            <small>Sending_CV Dashboard v1.0 | Desenvolvido com ❤️ em Python + Streamlit</small>
+            <small>Sending_CV Dashboard v1.0 | Desenvolvido em Python + Streamlit</small>
         </div>
         """,
         unsafe_allow_html=True
