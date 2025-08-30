@@ -179,6 +179,29 @@ Adapte seu currículo para cada vaga, seja honesto sobre suas experiências e ha
 
 Se este projeto foi útil, deixe uma estrela no repositório!
 
+## Sobre o Projeto
+
+**Repositório GitHub:** [https://github.com/chmulato/Sending_CV](https://github.com/chmulato/Sending_CV)
+
+### Informações Técnicas para Publicação
+
+**Data de Publicação:** 02/09/2025  
+**Status:** Sistema funcional com testes automatizados (92.9% de sucesso)
+
+### Arquivos de Referência
+- **Código Fonte:** [main.py](https://github.com/chmulato/Sending_CV/blob/main/main.py)
+- **Testes Completos:** [test/test_complete.py](https://github.com/chmulato/Sending_CV/blob/main/test/test_complete.py)
+- **Configuração:** [config.yaml](https://github.com/chmulato/Sending_CV/blob/main/config.yaml)
+- **Documentação:** [README.md](https://github.com/chmulato/Sending_CV/blob/main/README.md)
+
+### Tecnologias Utilizadas
+- **Linguagem:** Python 3.8+
+- **Framework Web:** Streamlit
+- **Envio de Email:** yagmail + Gmail SMTP
+- **Processamento de Documentos:** pdfplumber, python-docx
+- **Análise de Dados:** pandas, nltk
+- **Visualização:** plotly
+
 ---
 
 *Este é o segundo artigo da série sobre tecnologia ATS e recrutamento inteligente. O primeiro artigo focou na introdução básica do sistema.*
