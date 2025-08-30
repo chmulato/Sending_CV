@@ -109,7 +109,15 @@ python core/criar_vaga_organizada.py "Vaga" "Empresa" "Cidade"
 ```bash
 python test/test_complete.py
 ```
-Teste abrangente que valida estrutura, configurações, dados, conversões, dependências e módulos.
+Teste abrangente que valida:
+- Estrutura do projeto e arquivos essenciais
+- Configurações e dados
+- Conversão de documentos (PDF, DOCX)
+- Dependências Python
+- Módulos principais
+- **Conectividade de email (SMTP)**
+- **Simulação de envio de emails**
+- Execução do sistema principal
 
 ## Estrutura do Projeto
 
@@ -157,6 +165,12 @@ Sending_CV/
 - Verifique verificação em 2 etapas
 - Gere nova senha de app
 - Aguarde 5-10 minutos
+
+**Erro de conectividade SMTP**
+- Execute `python test/test_complete.py` para testar conexão
+- Verifique configurações em config.yaml
+- Confirme que senha de app está correta
+- Teste conexão com servidor SMTP
 
 **Erro na conversão PDF**
 - Verifique se PDF não é imagem
