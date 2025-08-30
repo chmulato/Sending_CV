@@ -1,0 +1,100 @@
+# PROMPT PARA IMAGEM DO ARTIGO - LINKEDIN
+# Formato: 1290x1080 pixels (proporção LinkedIn otimizada)
+# Tema: Sistema ATS Inteligente com Python
+
+CRIE UMA IMAGEM PROFISSIONAL PARA LINKEDIN COM AS SEGUINTES CARACTERÍSTICAS:
+
+## DIMENSÕES E FORMATO
+- Largura: 1290 pixels
+- Altura: 1080 pixels
+- Formato: PNG de alta qualidade
+- Fundo: Gradiente profissional (azul escuro para azul claro)
+
+## ELEMENTOS VISUAIS PRINCIPAIS
+
+### 1. CABEÇALHO SUPERIOR
+- Título: "Sistema ATS Inteligente com Python"
+- Subtítulo: "Automatização Completa da Busca por Emprego"
+- Logo/ícone: Serpente Python estilizada em azul/cyan
+
+### 2. ÁREA CENTRAL - ELEMENTOS GRÁFICOS
+
+#### Dashboard Interativo (lado esquerdo)
+- Gráfico de barras mostrando pontuações ATS (0-100%)
+- Métricas: "95% eficiência", "10x mais rápido", "4x mais respostas"
+- Ícones de análise: lupa, gráfico, relógio
+
+#### Sistema de Análise (centro)
+- Fluxograma mostrando o processo:
+  - Currículos → Análise ATS → Filtro ≥70% → Envio Automatizado
+- Ícones representando: PDF, DOCX, TXT, Email, Dashboard
+
+#### Resultados (lado direito)
+- Gráfico de pizza: "Aprovados vs Reprovados"
+- Lista de benefícios:
+  - ✅ Análise objetiva
+  - ✅ Tempo economizado
+  - ✅ Taxa de resposta maior
+  - ✅ Organização profissional
+
+### 3. ELEMENTOS TÉCNICOS
+- Código Python estilizado em fundo escuro
+- Tecnologias mencionadas: pandas, streamlit, nltk
+- Ícones de tecnologia: Python, Excel, Dashboard
+
+### 4. TEXTO PRINCIPAL (PORTUGUÊS CORRETO)
+
+#### Título Principal (fonte grande, negrito)
+"Sending_CV: Sistema Completo de Análise ATS"
+
+#### Subtítulo
+"Automatize sua busca por emprego com inteligência artificial de compatibilidade"
+
+#### Texto Explicativo
+- "Análise automática de currículos com algoritmo ATS profissional"
+- "Compatibilidade objetiva baseada em palavras-chave técnicas"
+- "Envio inteligente apenas para vagas com ≥70% de aderência"
+- "Dashboard em tempo real com métricas detalhadas"
+
+#### Call-to-Action
+- "Acesse: github.com/chmulato/Sending_CV"
+- "Transforme sua carreira com tecnologia profissional"
+
+### 5. ELEMENTOS DE MARCA
+- Logo: "Cara Core Informática" (fonte moderna, azul)
+- Hashtags: #Python #ATS #Automação #CarreiraTech
+- Data: "Agosto 2025"
+
+### 6. PALETA DE CORES
+- Azul principal: #1E40AF (azul escuro profissional)
+- Azul secundário: #3B82F6 (azul médio)
+- Azul acento: #06B6D4 (cyan/teal)
+- Branco: #FFFFFF (textos)
+- Cinza claro: #F3F4F6 (fundos secundários)
+
+### 7. ESTILO VISUAL
+- Design limpo e profissional
+- Elementos minimalistas
+- Ícones vetoriais de alta qualidade
+- Sombras suaves para profundidade
+- Tipografia moderna e legível
+- Espaçamento equilibrado
+
+### 8. ELEMENTOS INTERATIVOS SUGERIDOS
+- Botões estilizados: "Ver Demo", "Download", "GitHub"
+- Setas indicando fluxo do processo
+- Ícones animados (se possível na ferramenta)
+
+## OBJETIVO DA IMAGEM
+Criar uma representação visual profissional que demonstre:
+- A sofisticação técnica do sistema ATS
+- A eficiência e automação do processo
+- A interface moderna e intuitiva
+- A confiabilidade para uso profissional
+- O impacto positivo na carreira do usuário
+
+## TOM GERAL
+- Profissional e confiável
+- Inovador e moderno
+- Eficiente e inteligente
+- Acessível para profissionais de tecnologia

@@ -1,0 +1,36 @@
+# Vaga: Desenvolvedor Python Pleno
+
+## Descrição da Vaga
+Procuramos um Desenvolvedor Python experiente para integrar nossa equipe de desenvolvimento. O candidato ideal terá experiência sólida em Python, análise de dados e machine learning.
+
+## Responsabilidades
+- Desenvolver aplicações em Python para análise de dados.
+- Implementar modelos de machine learning para predição e otimização.
+- Colaborar com a equipe de dados para criação de dashboards interativos.
+- Participar de revisões de código e melhores práticas de desenvolvimento.
+
+## Requisitos
+- Experiência mínima de 3 anos em desenvolvimento Python.
+- Conhecimento em bibliotecas como Pandas, NumPy e Scikit-learn.
+- Experiência com ferramentas de versionamento (Git).
+- Habilidades em SQL e bancos de dados relacionais.
+- Conhecimento em metodologias ágeis (Scrum/Kanban).
+
+## Diferenciais
+- Experiência com Streamlit ou outras ferramentas de visualização.
+- Certificações em Python ou Data Science.
+- Conhecimento em Docker e deploy de aplicações.
+- Experiência em projetos de machine learning.
+
+## Benefícios
+- Salário competitivo
+- Plano de saúde e odontológico
+- Vale-refeição
+- Ambiente de trabalho flexível
+- Oportunidades de crescimento profissional
+
+## Como se Candidatar
+Envie seu currículo destacando experiências relevantes em Python, análise de dados e machine learning. Currículos que não atenderem aos requisitos mínimos serão desconsiderados.
+
+## Empresa
+TechCorp - Empresa líder em soluções tecnológicas para análise de dados.

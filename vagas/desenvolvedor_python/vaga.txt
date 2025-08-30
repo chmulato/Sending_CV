@@ -1,0 +1,46 @@
+DESENVOLVEDOR PYTHON BACKEND
+
+Empresa: TechCorp
+Local: São Paulo, SP
+Tipo: CLT - Tempo Integral
+
+DESCRIÇÃO DA VAGA:
+
+Procuramos um Desenvolvedor Python experiente para integrar nossa equipe de desenvolvimento backend.
+
+RESPONSABILIDADES:
+
+• Desenvolver e manter aplicações web usando Python
+• Implementar APIs RESTful e GraphQL
+• Trabalhar com bancos de dados relacionais e NoSQL
+• Participar do design e arquitetura de sistemas
+• Colaborar com equipe de frontend e DevOps
+• Implementar testes automatizados e CI/CD
+
+REQUISITOS TÉCNICOS:
+
+• Experiência sólida com Python (3+ anos)
+• Conhecimento em frameworks Django ou Flask
+• Experiência com desenvolvimento de APIs
+• Conhecimento em bancos de dados (PostgreSQL, MySQL)
+• Familiaridade com Docker e containers
+• Experiência com Git e controle de versão
+• Conhecimento em Linux/Unix
+
+DIFERENCIAIS:
+
+• Experiência com FastAPI
+• Conhecimento em AWS ou GCP
+• Experiência com metodologias ágeis
+• Conhecimento em desenvolvimento de microsserviços
+• Experiência com Kubernetes
+• Conhecimentos em React ou Vue.js
+
+OFERECEMOS:
+
+• Salário competitivo
+• Vale refeição/alimentação
+• Plano de saúde e odontológico
+• Auxílio home office
+• Ambiente de trabalho flexível
+• Oportunidades de crescimento profissional

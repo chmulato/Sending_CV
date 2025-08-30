@@ -99,6 +99,7 @@ def test_file_structure():
         'requirements.txt',
         'empresas.xlsx',
         os.path.join('log', 'log_respostas.xlsx'),
+        os.path.join('log', 'resultados_ats_organizado.csv'),
         os.path.join('templates', 'mensagem_email.txt'),
         os.path.join('test', 'test_sending_cv.py')
     ]

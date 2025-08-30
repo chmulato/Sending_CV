@@ -1,0 +1,574 @@
+Sistema ATS - Cara Core Informatica
+==================================================
+MODO: Analise ATS apenas
+Analisando curriculos e vagas...
+
+ATS Analyzer - Iniciando analise...
+============================================================
+Encontrados 4 arquivo(s) de vaga
+Encontrados 12 arquivo(s) de curriculo
+
+Analisando vaga: desenvolvedor_python.txt
+   Palavras-chave na vaga: 111
+   Analisando curriculo: currículo.pdf
+Arquivo convertido salvo: curriculos\currículo.txt
+      Palavras no curriculo: 132
+      Pontuacao ATS: 27.8%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: empresa, techcorp, local, tipo, clt, tempo, integral, descricao, vaga, procuramos
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: currículo.txt
+      Palavras no curriculo: 132
+      Pontuacao ATS: 27.8%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: empresa, techcorp, local, tipo, clt, tempo, integral, descricao, vaga, procuramos
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo.docx
+Arquivo convertido salvo: curriculos\exemplo_curriculo.txt
+      Palavras no curriculo: 147
+      Pontuacao ATS: 17.8%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: backend, empresa, local, sao, paulo, tipo, clt, tempo, integral, descricao
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo.txt
+      Palavras no curriculo: 147
+      Pontuacao ATS: 17.8%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: backend, empresa, local, sao, paulo, tipo, clt, tempo, integral, descricao
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo_analista.docx
+Arquivo convertido salvo: curriculos\exemplo_curriculo_analista.txt
+      Palavras no curriculo: 124
+      Pontuacao ATS: 12.2%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: desenvolvedor, backend, empresa, techcorp, local, sao, paulo, tipo, clt, tempo
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo_analista.txt
+      Palavras no curriculo: 124
+      Pontuacao ATS: 12.2%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: desenvolvedor, backend, empresa, techcorp, local, sao, paulo, tipo, clt, tempo
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo_cientista.pdf
+Erro ao converter curriculos\exemplo_curriculo_cientista.pdf: No /Root object! - Is this really a PDF?
+   Analisando curriculo: exemplo_curriculo_docx.txt
+      Palavras no curriculo: 124
+      Pontuacao ATS: 12.2%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: desenvolvedor, backend, empresa, techcorp, local, sao, paulo, tipo, clt, tempo
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo_pdf.txt
+      Palavras no curriculo: 219
+      Pontuacao ATS: 17.8%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: desenvolvedor, backend, empresa, techcorp, local, sao, paulo, tipo, clt, tempo
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: joao_silva.txt
+      Palavras no curriculo: 111
+      Pontuacao ATS: 33.3%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: empresa, local, tipo, clt, tempo, integral, descricao, vaga, procuramos, experiente
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: joao_silva_ats.txt
+      Palavras no curriculo: 160
+      Pontuacao ATS: 44.4%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: empresa, local, tipo, clt, tempo, integral, descricao, vaga, procuramos, experiente
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: joao_silva_otimizado.txt
+      Palavras no curriculo: 151
+      Pontuacao ATS: 44.4%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: empresa, local, tipo, clt, tempo, integral, descricao, vaga, procuramos, experiente
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+Analisando vaga: exemplo_vaga.txt
+   Palavras-chave na vaga: 128
+   Analisando curriculo: currículo.pdf
+Arquivo convertido salvo: curriculos\currículo.txt
+      Palavras no curriculo: 132
+      Pontuacao ATS: 19.4%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: vaga, pleno, descricao, procuramos, experiente, integrar, equipe, candidato, ideal, tera
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: currículo.txt
+      Palavras no curriculo: 132
+      Pontuacao ATS: 19.4%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: vaga, pleno, descricao, procuramos, experiente, integrar, equipe, candidato, ideal, tera
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo.docx
+Arquivo convertido salvo: curriculos\exemplo_curriculo.txt
+      Palavras no curriculo: 147
+      Pontuacao ATS: 37.6%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: vaga, pleno, descricao, procuramos, experiente, integrar, candidato, ideal, tera, solida
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo.txt
+      Palavras no curriculo: 147
+      Pontuacao ATS: 37.6%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: vaga, pleno, descricao, procuramos, experiente, integrar, candidato, ideal, tera, solida
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo_analista.docx
+Arquivo convertido salvo: curriculos\exemplo_curriculo_analista.txt
+      Palavras no curriculo: 124
+      Pontuacao ATS: 20.4%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: vaga, desenvolvedor, pleno, descricao, procuramos, experiente, integrar, candidato, ideal, tera
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo_analista.txt
+      Palavras no curriculo: 124
+      Pontuacao ATS: 20.4%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: vaga, desenvolvedor, pleno, descricao, procuramos, experiente, integrar, candidato, ideal, tera
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo_cientista.pdf
+Erro ao converter curriculos\exemplo_curriculo_cientista.pdf: No /Root object! - Is this really a PDF?
+   Analisando curriculo: exemplo_curriculo_docx.txt
+      Palavras no curriculo: 124
+      Pontuacao ATS: 20.4%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: vaga, desenvolvedor, pleno, descricao, procuramos, experiente, integrar, candidato, ideal, tera
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo_pdf.txt
+      Palavras no curriculo: 219
+      Pontuacao ATS: 31.2%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: vaga, desenvolvedor, pleno, descricao, procuramos, experiente, integrar, candidato, ideal, tera
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: joao_silva.txt
+      Palavras no curriculo: 111
+      Pontuacao ATS: 23.7%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: vaga, descricao, procuramos, experiente, integrar, equipe, candidato, ideal, tera, solida
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: joao_silva_ats.txt
+      Palavras no curriculo: 160
+      Pontuacao ATS: 26.9%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: vaga, descricao, procuramos, experiente, integrar, equipe, candidato, ideal, tera, solida
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: joao_silva_otimizado.txt
+      Palavras no curriculo: 151
+      Pontuacao ATS: 26.9%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: vaga, descricao, procuramos, experiente, integrar, equipe, candidato, ideal, tera, solida
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+Analisando vaga: vaga_80507.txt
+   Palavras-chave na vaga: 104
+   Analisando curriculo: currículo.pdf
+Arquivo convertido salvo: curriculos\currículo.txt
+      Palavras no curriculo: 132
+      Pontuacao ATS: 11.9%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: campinas, engenheiro, senior, sredevops, consultor, presencial, cliente, avancado, conversacao, contrato
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: currículo.txt
+      Palavras no curriculo: 132
+      Pontuacao ATS: 11.9%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: campinas, engenheiro, senior, sredevops, consultor, presencial, cliente, avancado, conversacao, contrato
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo.docx
+Arquivo convertido salvo: curriculos\exemplo_curriculo.txt
+      Palavras no curriculo: 147
+      Pontuacao ATS: 9.0%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: campinas, engenheiro, senior, sredevops, consultor, presencial, cliente, conversacao, contrato, cnpj
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo.txt
+      Palavras no curriculo: 147
+      Pontuacao ATS: 9.0%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: campinas, engenheiro, senior, sredevops, consultor, presencial, cliente, conversacao, contrato, cnpj
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo_analista.docx
+Arquivo convertido salvo: curriculos\exemplo_curriculo_analista.txt
+      Palavras no curriculo: 124
+      Pontuacao ATS: 7.5%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: campinas, engenheiro, senior, sredevops, consultor, presencial, cliente, avancado, conversacao, contrato
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo_analista.txt
+      Palavras no curriculo: 124
+      Pontuacao ATS: 7.5%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: campinas, engenheiro, senior, sredevops, consultor, presencial, cliente, avancado, conversacao, contrato
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo_cientista.pdf
+Erro ao converter curriculos\exemplo_curriculo_cientista.pdf: No /Root object! - Is this really a PDF?
+   Analisando curriculo: exemplo_curriculo_docx.txt
+      Palavras no curriculo: 124
+      Pontuacao ATS: 7.5%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: campinas, engenheiro, senior, sredevops, consultor, presencial, cliente, avancado, conversacao, contrato
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo_pdf.txt
+      Palavras no curriculo: 219
+      Pontuacao ATS: 13.4%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: campinas, engenheiro, sredevops, consultor, presencial, cliente, avancado, conversacao, contrato, cnpj
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: joao_silva.txt
+      Palavras no curriculo: 111
+      Pontuacao ATS: 6.0%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: campinas, engenheiro, sredevops, consultor, presencial, cliente, conversacao, contrato, cnpj, atuacao
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: joao_silva_ats.txt
+      Palavras no curriculo: 160
+      Pontuacao ATS: 7.5%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: campinas, engenheiro, sredevops, consultor, presencial, cliente, ingles, conversacao, contrato, cnpj
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: joao_silva_otimizado.txt
+      Palavras no curriculo: 151
+      Pontuacao ATS: 9.0%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: campinas, engenheiro, sredevops, consultor, presencial, cliente, conversacao, contrato, cnpj, atuacao
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+Analisando vaga: vaga_80616.txt
+   Palavras-chave na vaga: 97
+   Analisando curriculo: currículo.pdf
+Arquivo convertido salvo: curriculos\currículo.txt
+      Palavras no curriculo: 132
+      Pontuacao ATS: 9.6%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: barueri, outsystems, senior_hibrida, senior, procurando, juntar, equipe, dinamica, talentosa, voce
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: currículo.txt
+      Palavras no curriculo: 132
+      Pontuacao ATS: 9.6%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: barueri, outsystems, senior_hibrida, senior, procurando, juntar, equipe, dinamica, talentosa, voce
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo.docx
+Arquivo convertido salvo: curriculos\exemplo_curriculo.txt
+      Palavras no curriculo: 147
+      Pontuacao ATS: 19.2%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: barueri, outsystems, senior_hibrida, senior, procurando, juntar, dinamica, talentosa, voce, solida
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo.txt
+      Palavras no curriculo: 147
+      Pontuacao ATS: 19.2%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: barueri, outsystems, senior_hibrida, senior, procurando, juntar, dinamica, talentosa, voce, solida
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo_analista.docx
+Arquivo convertido salvo: curriculos\exemplo_curriculo_analista.txt
+      Palavras no curriculo: 124
+      Pontuacao ATS: 11.0%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: barueri, desenvolvedor, outsystems, senior_hibrida, senior, procurando, juntar, dinamica, talentosa, voce
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo_analista.txt
+      Palavras no curriculo: 124
+      Pontuacao ATS: 11.0%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: barueri, desenvolvedor, outsystems, senior_hibrida, senior, procurando, juntar, dinamica, talentosa, voce
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo_cientista.pdf
+Erro ao converter curriculos\exemplo_curriculo_cientista.pdf: No /Root object! - Is this really a PDF?
+   Analisando curriculo: exemplo_curriculo_docx.txt
+      Palavras no curriculo: 124
+      Pontuacao ATS: 11.0%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: barueri, desenvolvedor, outsystems, senior_hibrida, senior, procurando, juntar, dinamica, talentosa, voce
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: exemplo_curriculo_pdf.txt
+      Palavras no curriculo: 219
+      Pontuacao ATS: 15.1%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: barueri, desenvolvedor, outsystems, senior_hibrida, procurando, juntar, dinamica, talentosa, voce, apaixonado
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: joao_silva.txt
+      Palavras no curriculo: 111
+      Pontuacao ATS: 12.3%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: barueri, outsystems, senior_hibrida, procurando, juntar, equipe, dinamica, talentosa, voce, apaixonado
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: joao_silva_ats.txt
+      Palavras no curriculo: 160
+      Pontuacao ATS: 13.7%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: barueri, outsystems, senior_hibrida, procurando, juntar, equipe, dinamica, talentosa, voce, apaixonado
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+   Analisando curriculo: joao_silva_otimizado.txt
+      Palavras no curriculo: 151
+      Pontuacao ATS: 13.7%
+      Recomendacoes:
+         Pontuacao abaixo do minimo (70%). Curriculo precisa de ajustes.
+         Adicione estas palavras-chave faltantes: barueri, outsystems, senior_hibrida, procurando, juntar, equipe, dinamica, talentosa, voce, apaixonado
+         Dicas:
+            - Inclua seção de habilidades técnicas
+            - Use palavras-chave da descrição da vaga
+            - Destaque experiências relevantes
+            - Mantenha formato ATS-friendly
+
+============================================================
+Analise ATS concluida!
+Use as recomendacoes para otimizar seus curriculos.
+
+==================================================
+Processo concluido!
+Verifique se a pontuacao ATS atingiu 70% ou mais.
+Siga as recomendacoes para otimizar seu curriculo.

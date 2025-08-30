@@ -1,0 +1,91 @@
+DESENVOLVEDOR FRONTEND SÊNIOR
+
+Carlos Eduardo Silva
+São Paulo, SP
+(11) 99999-8888
+carlos.silva@email.com
+linkedin.com/in/carlos-eduardo-silva
+github.com/carlos-silva
+
+EXPERIÊNCIA PROFISSIONAL
+
+Desenvolvedor Frontend Sênior
+TechCorp - São Paulo, SP
+Janeiro 2022 - Presente
+
+• Desenvolvimento de aplicações web modernas usando React.js e TypeScript
+• Implementação de interfaces responsivas com CSS3, SASS e Styled Components
+• Integração com APIs RESTful e GraphQL
+• Desenvolvimento de componentes reutilizáveis e acessíveis
+• Otimização de performance (Core Web Vitals, Lighthouse)
+• Participação em metodologias ágeis Scrum e Kanban
+• Code reviews e mentoria de desenvolvedores juniores
+
+Desenvolvedor Frontend Pleno
+InovaWeb - São Paulo, SP
+Março 2020 - Dezembro 2021
+
+• Desenvolvimento frontend com React.js e JavaScript
+• Implementação de testes automatizados com Jest e React Testing Library
+• Trabalhos com HTML5, CSS3 e preprocessadores SASS
+• Integração com sistemas backend via REST APIs
+• Desenvolvimento mobile-first e responsivo
+• Controle de versão com Git e GitFlow
+• Deploy em ambientes cloud (AWS, Vercel)
+
+FORMAÇÃO ACADÊMICA
+
+Bacharelado em Ciência da Computação
+Universidade de São Paulo - USP
+2016 - 2020
+
+COMPETÊNCIAS TÉCNICAS
+
+Frontend:
+• React.js (3+ anos)
+• TypeScript (2+ anos)
+• JavaScript ES6+
+• HTML5, CSS3
+• SASS/SCSS, Styled Components
+• Next.js, Gatsby
+
+Ferramentas:
+• Git, GitHub, GitLab
+• Docker, containerização
+• AWS, Vercel, Netlify
+• Figma, Adobe XD
+
+Testes:
+• Jest, React Testing Library
+• Cypress (E2E)
+• Testing Library
+
+Metodologias:
+• Scrum, Kanban
+• TDD, BDD
+• CI/CD
+• Code Review
+
+DIFERENCIAIS
+
+• Experiência com GraphQL e Apollo Client
+• Conhecimento em Vue.js e Nuxt.js
+• Desenvolvimento de PWAs
+• Experiência com microfrontends
+• Performance optimization
+• Acessibilidade (WCAG 2.1)
+
+PROJETOS RELEVANTES
+
+E-commerce Platform (TechCorp)
+• React.js, TypeScript, GraphQL
+• Performance: 95+ Lighthouse score
+• 50k+ usuários ativos mensais
+
+Dashboard Analytics (InovaWeb)
+• React.js, D3.js, REST APIs
+• Visualizações de dados interativas
+• Deploy automatizado CI/CD
+
+PALAVRAS-CHAVE ATS:
+react javascript typescript html css sass styled-components git github docker aws jest testing scrum kanban frontend desenvolvimento web ui ux graphQL rest api nextjs gatsby

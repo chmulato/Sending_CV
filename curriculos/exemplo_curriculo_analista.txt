@@ -1,0 +1,12 @@
+Currículo de Exemplo - Maria Santos
+Resumo Profissional Analista de dados com 4 anos de experiência em business intelligence e visualização de dados. Especialista em Power BI, SQL e Python para análise de dados.
+Experiência Profissional
+Analista de Dados - TechSolutions (2019 - Presente) - Desenvolvimento de dashboards interativos em Power BI - Análise de dados usando SQL e Python - Criação de relatórios para tomada de decisão - Colaboração com equipes multidisciplinares
+Estagiária em TI - DataCorp (2017 - 2019) - Suporte em análise de dados - Desenvolvimento de queries SQL - Participação em projetos de BI
+Formação Acadêmica - Bacharelado em Sistemas de Informação - Universidade Federal (2013 - 2017) - Foco em banco de dados e análise de sistemas
+Habilidades Técnicas - Ferramentas: Power BI, Excel, SQL Server - Linguagens: SQL, Python, R - Softwares: Tableau, SAP, Microsoft Office
+Habilidades Comportamentais - Análise crítica - Comunicação clara - Trabalho em equipe - Orientação para resultados
+Idiomas - Português: Nativo - Inglês: Intermediário - Espanhol: Básico
+Certificações - Certificação Power BI (Microsoft, 2023) - Certificação SQL (Oracle, 2022)
+Projetos - Dashboard de Vendas: Criação de dashboard completo para análise de vendas - Sistema de Relatórios: Desenvolvimento de sistema automatizado de relatórios
+Contato - Email: maria.santos@email.com - LinkedIn: linkedin.com/in/mariasantos - GitHub: github.com/mariasantos

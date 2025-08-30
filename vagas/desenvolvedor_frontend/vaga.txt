@@ -1,0 +1,45 @@
+DESENVOLVEDOR FRONTEND SÊNIOR
+
+Empresa: TechCorp
+Local: São Paulo, SP
+Tipo: CLT - Tempo Integral
+
+DESCRIÇÃO DA VAGA:
+Procuramos Desenvolvedor Frontend experiente para integrar nossa equipe de desenvolvimento, 
+focando em aplicações web modernas e responsivas.
+
+RESPONSABILIDADES:
+• Desenvolver interfaces de usuário com React.js
+• Implementar componentes reutilizáveis e acessíveis
+• Colaborar com designers para implementar UI/UX
+• Otimizar performance de aplicações web
+• Participar de code reviews e mentorar desenvolvedores juniores
+• Manter documentação técnica atualizada
+
+REQUISITOS TÉCNICOS:
+• React.js avançado (2+ anos de experiência)
+• JavaScript/TypeScript proficiency
+• HTML5, CSS3, SASS/SCSS
+• Git e controle de versão
+• Metodologias ágeis (Scrum/Kanban)
+• Testes automatizados (Jest, React Testing Library)
+
+DIFERENCIAIS:
+• Next.js ou Gatsby
+• Vue.js ou Angular
+• GraphQL ou REST APIs
+• Docker e containerização
+• AWS ou outras plataformas cloud
+• Experiência com mobile-first design
+
+OFERECEMOS:
+• Salário competitivo compatível com experiência
+• Vale refeição/alimentação
+• Plano de saúde e odontológico completo
+• Auxílio home office
+• Ambiente de trabalho flexível
+• Oportunidades de crescimento profissional
+• Cultura de aprendizado contínuo
+
+PALAVRAS-CHAVE ATS:
+react javascript typescript html css sass git scrum kanban jest testing frontend desenvolvimento web ui ux

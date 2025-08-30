@@ -1,0 +1,38 @@
+Currículo de Exemplo - João Silva
+Resumo Profissional
+Desenvolvedor Python com 5 anos de experiência em análise de dados, machine learning e desenvolvimento de aplicações web. Apaixonado por tecnologia e resolução de problemas complexos.
+Experiência Profissional
+Desenvolvedor Python - TechCorp (2020 - Presente)
+Desenvolvimento de aplicações em Python para análise de dados
+Implementação de modelos de machine learning para predição de vendas
+Colaboração em equipe ágil, utilizando Git e metodologias Scrum
+Analista de Dados - DataSolutions (2018 - 2020)
+Análise de grandes volumes de dados usando Pandas e NumPy
+Criação de dashboards interativos com Streamlit e Plotly
+Otimização de consultas SQL para melhoria de performance
+Formação Acadêmica
+Bacharelado em Ciência da Computação - Universidade Federal (2014 - 2018)
+Foco em algoritmos, estruturas de dados e inteligência artificial
+Habilidades Técnicas
+Linguagens: Python, SQL, JavaScript
+Ferramentas: Pandas, NumPy, Scikit-learn, Git, Docker
+Softwares: Excel, Power BI, Jupyter Notebook
+Habilidades Comportamentais
+Trabalho em equipe
+Comunicação eficaz
+Resolução de problemas
+Aprendizado contínuo
+Idiomas
+Português: Nativo
+Inglês: Avançado
+Espanhol: Intermediário
+Certificações
+Certificado em Python para Data Science (Coursera, 2022)
+Certificado em Machine Learning (Google, 2021)
+Projetos
+Sistema de Recomendação: Desenvolvimento de algoritmo de recomendação usando Python e Scikit-learn
+Dashboard de Vendas: Criação de dashboard interativo para análise de vendas com Streamlit
+Contato
+Email: joao.silva@email.com
+LinkedIn: linkedin.com/in/joaosilva
+GitHub: github.com/joaosilva

@@ -1,0 +1,27 @@
+Campinas - SP - 30/08/25
+Engenheiro Sênior de SRE/DevOps - Campinas
+ 
+Consultor Engenheiro Sênior de SRE/DevOps 
+Campinas, SP (2x presencial no cliente) 
+Inglês avançado para conversação 
+ 
+Contrato com consultor ( CNPJ) Engenheiro Sênior de SRE/DevOps para atuação de consultoria no 
+cliente e requer a necessidade de ir 2 vezes presencial em Campinas no cliente e demais dias remoto 
+ 
+Skill: 
+Senioridade e experiência em SRE, DevOps ou funções relacionadas. 
+Senioridade e experiência com serviços de nuvem do Azure (não negociável). 
+Senioridade e experiência com  prática com o DataDog para monitoramento de infraestrutura e aplicativos (não negociável). 
+ 
+Sólida experiência com o GitHub Actions para automação de CI/CD (não negociável). 
+Experiência com o Azure DevOps para gerenciamento de projetos e pipelines (não negociável). 
+Proficiência com Terraform e Kubernetes para infraestrutura como código e orquestração de contêineres (não negociável). 
+Sólido conhecimento em gerenciamento de ambiente e melhores práticas para igualdade de ambiente.						
+
+Empresa .....: k2 Partnering Solutions
+Código .......: 80507
+
+Empresa : k2 Partnering Solutions
+
+Email : mmaximo@k2partnering.com
+Assunto a ser colocado no email : apinfo - 80507 - SREDevOps_ Camp

@@ -1,0 +1,38 @@
+Joao da Silva - Desenvolvedor Backend Python
+São Paulo - SP
+(11) 99999-9999
+joao.silva.fake@gmail.com
+github.com/joaosilva-dev
+linkedin.com/in/joaosilva-dev
+Resumo Profissional
+Desenvolvedor com 4 anos de experiência em automação de processos, APIs
+RESTful e microsserviços com Python. Focado em produtividade e automação de
+tarefas manuais com ferramentas simples e eficazes.
+Habilidades Técnicas
+• Linguagens: Python, JavaScript (básico)
+• Frameworks: FastAPI, Flask, Django, Celery
+• Banco de Dados: PostgreSQL, MySQL, SQLite
+• DevOps: Docker, Git, GitHub Actions
+• Automação: Selenium, Pandas, Openpyxl, Requests
+• Testes: Pytest, unittest
+• Outros: Git, Linux, API REST, JSON, YAML
+Experiência Profissional
+InovaData – Desenvolvedor Backend Python (Jan/2022 - Jul/2024)
+- Desenvolvimento de APIs internas com FastAPI e PostgreSQL
+- Automação de tarefas de integração entre sistemas via scripts Python
+Freelancer – Automação de Processos com Python (Mai/2020 - Dez/2021)
+- Criação de automações para envio de e-mails, raspagem de dados e
+preenchimento de planilhas
+Formação Acadêmica
+Tecnólogo em Análise e Desenvolvimento de Sistemas – Faculdade de Tecnologia
+Fictícia (2018 a 2020)
+Projetos Pessoais
+• Sending_CV (2025): Automação de envio de currículos
+• Scraper-Fretes (2024): Bot para ofertas de frete
+Idiomas
+• Português: Nativo
+• Inglês: Intermediário
+Disponibilidade
+Disponível para trabalho remoto ou híbrido.
+Observações
+Currículo fictício para testes.

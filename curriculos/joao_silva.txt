@@ -1,0 +1,50 @@
+DESENVOLVEDOR PYTHON SÊNIOR
+
+João Silva
+São Paulo, SP
+(11) 99999-9999
+joao.silva@email.com
+linkedin.com/in/joaosilva
+
+EXPERIÊNCIA PROFISSIONAL
+
+Desenvolvedor Python Sênior
+TechCorp - São Paulo, SP
+Janeiro 2022 - Presente
+
+• Desenvolvimento de aplicações web usando Django e Flask
+• Implementação de APIs RESTful com FastAPI
+• Trabalhos com bancos de dados PostgreSQL e MongoDB
+• Desenvolvimento de sistemas de machine learning com scikit-learn
+• Deploy de aplicações em AWS e Docker
+• Metodologias ágeis (Scrum/Kanban)
+
+Desenvolvedor Python Pleno
+InovaDigital - São Paulo, SP
+Março 2020 - Dezembro 2021
+
+• Desenvolvimento backend com Python e Django
+• Integração com sistemas de pagamento
+• Otimização de performance de aplicações
+• Desenvolvimento de testes automatizados
+• Manutenção de sistemas legados
+
+FORMAÇÃO ACADÊMICA
+
+Bacharelado em Ciência da Computação
+Universidade de São Paulo - USP
+2016 - 2020
+
+COMPETÊNCIAS TÉCNICAS
+
+Linguagens: Python, JavaScript, SQL
+Frameworks: Django, Flask, FastAPI, React
+Bancos de Dados: PostgreSQL, MongoDB, Redis
+Ferramentas: Docker, AWS, Git, Linux
+Metodologias: Scrum, Kanban, TDD
+
+IDIOMAS
+
+Português: Nativo
+Inglês: Avançado
+Espanhol: Intermediário
