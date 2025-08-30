@@ -107,8 +107,9 @@ python core/criar_vaga_organizada.py "Vaga" "Empresa" "Cidade"
 
 #### Testes
 ```bash
-python test/test_sending_cv.py
+python test/test_complete.py
 ```
+Teste abrangente que valida estrutura, configurações, dados, conversões, dependências e módulos.
 
 ## Estrutura do Projeto
 
@@ -159,7 +160,7 @@ Sending_CV/
 
 **Erro na conversão PDF**
 - Verifique se PDF não é imagem
-- Use `python test/teste_pdf.py`
+- Execute `python test/test_complete.py` para diagnóstico completo
 
 **Dependências não encontradas**
 - Execute `pip install -r requirements.txt`
