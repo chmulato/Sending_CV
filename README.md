@@ -188,6 +188,70 @@ Sending_CV/
 4. Push: `git push origin feature/nova-feature`
 5. Abra Pull Request
 
+## Histórico dos Artigos e Melhorias
+
+### Artigos Publicados
+
+#### 1. "Como Automatizar sua Busca por Emprego com Python"
+- **Data de Publicação**: 16 de julho de 2025
+- **Arquivo**: `docs/ARTIGO_SENDING_CV.md`
+- **Tema**: História do projeto, automação da busca por emprego
+- **Foco**: Case study prático, resultados obtidos, impacto pessoal
+- **Status**: Publicado
+
+#### 2. "Áreas Quentes do Currículo e o Poder da Tecnologia ATS"
+- **Data de Publicação**: 02 de setembro de 2025
+- **Arquivo**: `docs/ARTIGO_ATS.md`
+- **Tema**: Análise técnica ATS, evolução do sistema
+- **Foco**: Áreas quentes do currículo, tecnologia ATS, arquitetura do sistema
+- **Status**: Preparado para publicação
+
+### Sistema Upgraded - Melhorias Implementadas
+
+#### Funcionalidades Adicionadas
+- Testes Abrangentes: Sistema de testes completo com 56 testes (92.9% sucesso)
+- Simulação de Email: Teste específico para `chmulato@hotmail.com`
+- Correção SSL/TLS: Configurações adequadas para Gmail SMTP
+- Organização de Testes: Script único `test_complete.py` substituindo múltiplos arquivos
+- Documentação Técnica: Hash codes e referências para publicação
+
+#### Arquivos de Documentação
+- `docs/ARTIGO_SENDING_CV.md` - Artigo sobre automação da busca por emprego
+- `docs/ARTIGO_ATS.md` - Artigo sobre tecnologia ATS e evolução do sistema
+- `docs/ARTIGO_SENDING_CV.docx` - Versão DOCX do primeiro artigo
+- `docs/ARTIGO_ATS.docx` - Versão DOCX do segundo artigo
+
+#### Melhorias Técnicas
+- Correção de Caminhos: Ajuste dos caminhos das imagens para compatibilidade DOCX
+- Configuração SSL: `smtp_ssl=False` e `smtp_starttls=True` para Gmail
+- Testes Automatizados: Cobertura completa do sistema (estrutura, configurações, emails)
+- Documentação Git: Commit hash e informações técnicas para reprodutibilidade
+
+#### Status Atual do Sistema
+- **Versão**: v2.0
+- **Testes**: 56 testes automatizados
+- **Taxa de Sucesso**: 92.9%
+- **Branch**: main
+- **Último Commit**: `b30b791c78a2d8dbc647825278bff8ed1ffd48a9`
+
+### Comparativo de Artigos
+
+| Aspecto | Artigo 1 (Julho 2025) | Artigo 2 (Setembro 2025) |
+|---------|----------------------|-------------------------|
+| **Foco** | História prática | Análise técnica |
+| **Público** | Candidatos a emprego | Profissionais de RH/Tech |
+| **Tamanho** | Case study | Guia técnico completo |
+| **Imagens** | 2 capturas de tela | 1 diagrama do sistema |
+| **Referências** | GitHub básico | Hash codes completos |
+
+### Próximos Passos
+- Publicação do Artigo 2 em 02/09/2025
+- Atualização contínua da documentação
+- Expansão dos testes automatizados
+- Feedback da comunidade para melhorias
+
+---
+
 ## Licença
 
 MIT License - veja [LICENSE](LICENSE) para detalhes.
