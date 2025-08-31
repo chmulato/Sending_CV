@@ -4,7 +4,7 @@
 
 *Campo Largo, PR, 16 de julho de 2025*
 
-![Dashboard do Sending_CV - Sistema de automação que transforma a busca por emprego através de Python, mostrando métricas, gráficos de acompanhamento e controle inteligente de candidaturas](img/sending_cv.png)
+![Dashboard do Sending_CV - Sistema de automação que transforma a busca por emprego através de Python, mostrando métricas, gráficos de acompanhamento e controle inteligente de candidaturas](../img/sending_cv.png)
 
 **Figura 1:** Dashboard interativo do Sending_CV - Transformando a busca por emprego com automação inteligente e métricas em tempo real
 
@@ -145,7 +145,7 @@ A tecnologia deve trabalhar para nós, não o contrário.
 
 Contribuições são bem-vindas!
 
-![Dashboard do Sending_CV](img/dashboard_preview.png)
+![Dashboard do Sending_CV](../img/dashboard_preview.png)
 
 ---
 

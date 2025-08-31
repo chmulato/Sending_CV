@@ -1,7 +1,7 @@
 
 # Áreas Quentes do Currículo e o Poder da Tecnologia ATS: Evolução do Sistema
 
-![Sistema Sending_CV - Análise ATS completa e envio automatizado de currículos](img/sending_cv_ats.png)
+![Sistema Sending_CV - Análise ATS completa e envio automatizado de currículos](../img/sending_cv_ats.png)
 
 **Sistema completo para análise ATS (Applicant Tracking System) de currículos e envio automatizado de emails para empresas, desenvolvido em Python com interface web (Streamlit).**
 
